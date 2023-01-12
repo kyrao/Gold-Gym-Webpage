@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./my.css">
+    <title>Register</title>
+</head>
+<style>
+    .container {
+        border: 2px solid gold;
+        margin: 40px 30px;
+        padding: 50px 20px;
+        width: 30%;
+        border-radius: 28px;
+        position: absolute;
+        right: 33px;
+        background-color: black;
+
+    }
+    .form-group input {
+        font-family: Garamond;
+        text-align: center;
+        display: block;
+        width: 250px;
+        padding: 1px;
+        border: 2px solid rgb(42, 65, 170);
+        margin: 11px auto;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+    .container button.btn {
+        display: block;
+        width: 70%;
+        margin: 0px 60px;
+
+    }
+
+    .alpha {
+        border: 2px solid grey;
+        padding: 5px 6px;
+        border-radius: 10px;
+
+    }
+
+    .container button.alpha {
+        display: block;
+        width: 100px;
+        margin: 10px 80px;
+        position: absolute;
+        right: 95px;
+      
+
+    }
+    body{
+        background: url("new9.jpg");
+        background-size: cover;
+    }
+    .join{
+        border: 4px solid aquamarine;
+        
+        margin:0px 150px;
+        margin-top: 1px;
+      
+        
+    }
+    .form{
+        margin-top: 23px;
+    }
+</style>
+<body >
+    <div class="container">
+        <div class="join"><h1 style="text-align: center; font-size: 16px; color: aqua;">
+            JOIN NOW
+        </h1></div><br> 
+        <div class="form"><form action="noaction.php">
+            <div class="form-group">
+                NAME<input type="text" name="" placeholder="ENTER YOUR NAME">
+            </div>
+            <div class="form-group">
+               AGE <input type="text" name="" placeholder="ENTER YOUR AGE">
+            </div>
+            
+          
+            <div class="form-group">
+             ADDRESS   <input type="text" name="" placeholder="ENTER YOUR LOCALITY">
+            </div>
+            <div class="form-group">
+             PHONE NO.   <input type="text" name="" placeholder="ENTER YOUR PHONE NUMBER">
+            </div>
+            <div class="form-group">
+              EMAIL  <input type="text" name="" placeholder="ENTER YOUR EMAIL ">
+            </div>
+            <div class="form-group">
+            <label for="gender" style = "position: relative;left: 102px;color: aqua">Gender</label><br><span style = "position: relative;left: 102px;color: aqua" >Male</span><input type="radio" name="radio">
+            <span style = "position: relative;left: 102px;color: aqua" >Female</span><input type="radio" name="radio"><br><br></div>
+            <button class="btn">SUBMIT</button>
+            <button class="alpha">RESET</button></div>
+    </div>
+    
+</body>
+
+</html>
